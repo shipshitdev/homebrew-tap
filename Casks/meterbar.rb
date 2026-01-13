@@ -1,6 +1,6 @@
 cask "meterbar" do
   version "1.1"
-  sha256 "PLACEHOLDER_SHA256"
+  sha256 "Not Found"
 
   url "https://github.com/shipshitdev/meterbarapp/releases/download/v#{version}/MeterBar-v#{version}.zip",
       verified: "github.com/shipshitdev/meterbarapp/"
