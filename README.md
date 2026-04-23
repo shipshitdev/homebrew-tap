@@ -15,6 +15,8 @@ brew tap shipshitdev/tap
 | Cask | Description |
 |------|-------------|
 | `meterbar` | Track AI coding assistant usage limits from the menu bar |
+| `shipcut` | Desktop-first AI video repurposing pipeline |
+| `shiplead` | Local-first agentic CRM for founder-led sales |
 
 ## Usage
 
@@ -32,6 +34,38 @@ brew uninstall --cask meterbar
 
 # Uninstall and remove all data
 brew uninstall --cask --zap meterbar
+```
+
+### ShipCut
+
+```bash
+# Install
+brew install --cask shipcut
+
+# Update
+brew upgrade --cask shipcut
+
+# Uninstall
+brew uninstall --cask shipcut
+
+# Uninstall and remove all data
+brew uninstall --cask --zap shipcut
+```
+
+### ShipLead
+
+```bash
+# Install
+brew install --cask shiplead
+
+# Update
+brew upgrade --cask shiplead
+
+# Uninstall
+brew uninstall --cask shiplead
+
+# Uninstall and remove all data
+brew uninstall --cask --zap shiplead
 ```
 
 ## Note on Unsigned Apps
