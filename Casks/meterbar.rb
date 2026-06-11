@@ -13,7 +13,7 @@ cask "meterbar" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "MeterBar.app"
   binary "#{appdir}/MeterBar.app/Contents/Helpers/meterbar", target: "meterbar"
