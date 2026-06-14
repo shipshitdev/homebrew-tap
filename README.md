@@ -22,6 +22,14 @@ brew tap shipshitdev/tap
 
 ### MeterBar
 
+MeterBar has moved to `VincentShipsIt/tap`. Existing `shipshitdev/tap`
+installs continue to work, but new installs should use:
+
+```bash
+brew tap VincentShipsIt/tap
+brew install --cask meterbar
+```
+
 ```bash
 # Install
 brew install --cask meterbar
