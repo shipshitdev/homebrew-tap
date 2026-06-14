@@ -13,14 +13,6 @@ cask "meterbar" do
     strategy :github_latest
   end
 
-  caveats <<~EOS
-    MeterBar has moved to VincentShipsIt/tap.
-
-    Switch with:
-      brew tap VincentShipsIt/tap
-      brew reinstall --cask VincentShipsIt/tap/meterbar
-  EOS
-
   depends_on macos: :ventura
 
   app "MeterBar.app"
@@ -45,4 +37,12 @@ cask "meterbar" do
     "~/Library/Preferences/dev.shipshit.MeterBar.plist",
     "~/Library/Saved Application State/dev.shipshit.MeterBar.savedState",
   ]
+
+  caveats <<~EOS
+    MeterBar has moved to VincentShipsIt/tap.
+
+    Switch with:
+      brew tap VincentShipsIt/tap
+      brew reinstall --cask VincentShipsIt/tap/meterbar
+  EOS
 end
