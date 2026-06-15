@@ -16,6 +16,7 @@ brew tap shipshitdev/tap
 |------|-------------|
 | `meterbar` | Track AI coding assistant usage limits from the menu bar |
 | `shipcut` | Desktop-first AI video repurposing pipeline |
+| `shipcode` | Autonomous AI coding pipeline from issue to pull request |
 | `shiplead` | Local-first agentic CRM for founder-led sales |
 
 ## Usage
@@ -23,7 +24,7 @@ brew tap shipshitdev/tap
 ### MeterBar
 
 MeterBar has moved to `VincentShipsIt/tap`. Existing `shipshitdev/tap`
-installs continue to work, but new installs should use:
+installs continue to work until July 15, 2026, but new installs should use:
 
 ```bash
 brew tap VincentShipsIt/tap
@@ -58,6 +59,22 @@ brew uninstall --cask shipcut
 
 # Uninstall and remove all data
 brew uninstall --cask --zap shipcut
+```
+
+### ShipCode
+
+```bash
+# Install
+brew install --cask shipcode
+
+# Update
+brew upgrade --cask shipcode
+
+# Uninstall
+brew uninstall --cask shipcode
+
+# Uninstall and remove all data
+brew uninstall --cask --zap shipcode
 ```
 
 ### ShipLead

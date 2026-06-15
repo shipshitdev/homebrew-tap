@@ -40,6 +40,7 @@ cask "meterbar" do
 
   caveats <<~EOS
     MeterBar has moved to VincentShipsIt/tap.
+    This compatibility cask will be removed on July 15, 2026.
 
     Switch with:
       brew tap VincentShipsIt/tap
