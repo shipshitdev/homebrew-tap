@@ -16,7 +16,7 @@ cask "shiplead" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "ShipLead.app"
 
