@@ -1,3 +1,4 @@
+# token-write-probe (stripped by the next automated bump)
 cask "shipcode" do
   version "0.2.0"
   arch arm: "arm64", intel: "x64"
