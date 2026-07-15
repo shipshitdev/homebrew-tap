@@ -1,9 +1,9 @@
 cask "shipcode" do
-  version "0.2.1"
+  version "0.2.2"
   arch arm: "arm64", intel: "x64"
 
-  sha256 arm:   "d50f2280d025c17626e631daa9b5f059d0dcd9c2cb6135a746ad2efffc687407",
-         intel: "e64c16b258b6713428cec7ac3ff76c7106b60411814e1fa2e964526de7426b39"
+  sha256 arm:   "03d468262e43a8488073467bd143347c402385c6af7573edab6f7a9a225517b0",
+         intel: "c53ce6ceabce7361c75474b105470329614a32cd6012b81340c23df34b440177"
 
   url "https://github.com/shipshitdev/shipcode/releases/download/v#{version}/ShipCode-#{version}-#{arch}.dmg",
       verified: "github.com/shipshitdev/shipcode/"
